@@ -75,7 +75,6 @@ namespace DisKek
             { // More elegant solution pls?
                 embed.WithDescription($"[Jump to message]({ogmsg.GetJumpUrl()})")
                     .WithImageUrl(ogmsg.Attachments.FirstOrDefault()?.Url)
-                    .WithImageUrl(ogmsg.Embeds.FirstOrDefault()?.Url)
                     .WithAuthor(ogmsg.Author);
             }
             
